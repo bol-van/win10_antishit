@@ -46,3 +46,5 @@ reg add HKLM\SYSTEM\CurrentControlSet\Services\SgrmBroker /f /t REG_DWORD /v Sta
 rem default - auto
 reg add HKLM\SYSTEM\CurrentControlSet\Services\UsoSvc /f /t REG_DWORD /v Start /d 4
 sc stop usosvc
+
+reg add HKLM\SYSTEM\CurrentControlSet\Services\Windefend /f /t REG_DWORD /v Start /d 4

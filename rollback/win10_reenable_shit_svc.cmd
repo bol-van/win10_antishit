@@ -19,3 +19,4 @@ reg add HKLM\SYSTEM\CurrentControlSet\Services\wscsvc /f /t REG_DWORD /v Start /
 sc config pushtoinstall start= demand
 reg add HKLM\SYSTEM\CurrentControlSet\Services\SgrmBroker /f /t REG_DWORD /v Start /d 2
 reg add HKLM\SYSTEM\CurrentControlSet\Services\UsoSvc /f /t REG_DWORD /v Start /d 2
+reg add HKLM\SYSTEM\CurrentControlSet\Services\Windefend /f /t REG_DWORD /v Start /d 3
