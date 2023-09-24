@@ -24,6 +24,11 @@ echo Backup successful
 powershell "Get-AppXProvisionedPackage -online | Where-Object DisplayName -eq "Microsoft.WindowsStore" | Remove-AppxProvisionedPackage -online"
 powershell "Get-AppxPackage -AllUsers | Where-Object Name -eq "Microsoft.WindowsStore" | Remove-AppxPackage"
 
+for /F "usebackq tokens=3*" %%f in (`powershell "Get-AppxPackage -AllUsers | Where Name -eq Microsoft.WindowsStore | Format-List -Property PackageFullName"`) do (
+ powershell Remove-AppxPackage -AllUsers -Package "%%f"
+)
+
+
 goto :eof
 
 :backup_failed

@@ -6,3 +6,7 @@
 
 powershell "Get-AppXProvisionedPackage -online | Where DisplayName -ne "Microsoft.WindowsStore" | Remove-AppxProvisionedPackage -online"
 powershell "Get-AppxPackage -AllUsers | Where Name -ne "Microsoft.WindowsStore" | Remove-AppxPackage"
+
+for /F "usebackq tokens=3*" %%f in (`powershell "Get-AppxPackage -AllUsers | Where Name -ne Microsoft.WindowsStore | Format-List -Property PackageFullName"`) do (
+ powershell Remove-AppxPackage -AllUsers -Package "%%f"
+)
