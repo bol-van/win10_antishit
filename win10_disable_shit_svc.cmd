@@ -58,3 +58,5 @@ sc stop wdboot
 sc config wdfilter start= disabled
 sc stop wdfilter
 reg add HKLM\SYSTEM\CurrentControlSet\Services\Windefend /f /t REG_DWORD /v Start /d 4
+
+sc config waasmedicsvc start= disabled
