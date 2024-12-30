@@ -1,5 +1,5 @@
 @echo off
-for %%v in (CDPUserSvc OneSyncSvc WpnUserService UdkUserSvc AarSvc) do (
+for %%v in (CDPUserSvc OneSyncSvc UdkUserSvc AarSvc) do (
  for /f %%I in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services" /k /f %%v ^| find /i "%%v" ') do (
   echo Disabling %%~nI
   reg add "%%I" /v "Start" /t REG_DWORD /d 4 /f

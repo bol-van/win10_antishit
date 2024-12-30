@@ -51,6 +51,9 @@ sc stop SgrmBroker
 rem default - auto
 sc config usosvc start= disabled
 sc stop usosvc
+rem default - auto (delayed start)
+sc config uhssvc start= disabled
+sc stop uhssvc
 
 sc config windefend start= disabled
 sc config wdboot start= disabled

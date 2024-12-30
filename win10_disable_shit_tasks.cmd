@@ -19,6 +19,7 @@ schtasks /change /disable /TN "\Microsoft\Windows\Windows Error Reporting\QueueR
 schtasks /change /disable /TN "\Microsoft\Windows\WindowsUpdate\sih"
 schtasks /change /disable /TN "\Microsoft\Windows\WindowsUpdate\Automatic App Update"
 schtasks /change /disable /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start"
+schtasks /change /disable /TN "\Microsoft\Windows\WindowsUpdate\RUXIM\PLUGScheduler"
 schtasks /change /disable /TN "\Microsoft\Windows\AppID\SmartScreenSpecific"
 takeown /F %SystemRoot%\System32\Tasks\Microsoft\Windows\UpdateOrchestrator /A /R
 icacls %SystemRoot%\System32\Tasks\Microsoft\Windows\UpdateOrchestrator /grant *S-1-5-32-544:F /T
