@@ -34,6 +34,7 @@ schtasks /change /disable /TN "\Microsoft\Windows\UpdateOrchestrator\Start Oobe 
 schtasks /change /disable /TN "\Microsoft\Windows\UpdateOrchestrator\StartOobeAppsScan"
 schtasks /change /disable /TN "\Microsoft\Windows\UpdateOrchestrator\StartOobeAppsScanAfterUpdate"
 schtasks /change /disable /TN "\Microsoft\Windows\UpdateOrchestrator\UUS Failover Task"
+schtasks /change /disable /TN "\Microsoft\Windows\WaaSMedic\PerformRemediation"
 schtasks /change /disable /TN "\Microsoft\Windows\Setup\EOSNotify"
 schtasks /change /disable /TN "\Microsoft\Windows\SettingSync\BackgroundUploadTask"
 schtasks /change /disable /TN "\Microsoft\Windows\SettingSync\NetworkStateChangeTask"
