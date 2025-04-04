@@ -1,0 +1,83 @@
+# Skype Ads Blocker
+0.0.0.0 rad.msn.com
+0.0.0.0 live.rads.msn.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 static.2mdn.net
+0.0.0.0 g.msn.com
+0.0.0.0 a.ads2.msads.net
+0.0.0.0 b.ads2.msads.net
+0.0.0.0 ac3.msn.com
+# End Skype Ads Blocker
+
+#Windows 10 Privacy Blocker#
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 telemetry.appex.bing.net:443
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 feedback.windows.com
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 onecs-live.azureedge.net
+#End Windows 10 Privacy Blocker#
+
+#extra adshit
+0.0.0.0 arc.msn.com
+0.0.0.0 rpt.msn.com
+#end extra adshit
+
+#extra privacy
+0.0.0.0 officeclient.microsoft.com
+0.0.0.0 ssw.live.com
+0.0.0.0 settings.data.microsoft.com
+#end extra privacy
+
+#winstore disable shit
+0.0.0.0 licensing.md.mp.microsoft.com
+0.0.0.0 purchase.md.mp.microsoft.com
+#end winstore disable shit
+
+#activation
+0.0.0.0 activation-v2.sls.microsoft.com
+0.0.0.0 activation-v2.sls.microsoft.com.nsatc.net
+0.0.0.0 activation.sls.microsoft.com
+0.0.0.0 activation.sls.microsoft.com.nsatc.net
+#end activation
